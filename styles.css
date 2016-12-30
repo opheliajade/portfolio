@@ -1,0 +1,29 @@
+.navbar-nav {
+  /*background-color: yellow;*/
+}
+
+.main-img img {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.img-border {
+  border: 1px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.thumbs {
+  margin-top: 20px;
+}
+
+footer {
+  font-size: 250%;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
