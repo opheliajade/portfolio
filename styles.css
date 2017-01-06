@@ -19,6 +19,18 @@
   margin-top: 20px;
 }
 
+.img-responsive:hover {
+  opacity: 0.75;
+}
+.col-md-9  {
+  margin-left:10%;
+  margin-right: 10%;
+
+}
+.col-md-4 img {
+  height: 200px;
+  text-align: center;
+}
 footer {
   font-size: 250%;
   margin-top: 20px;
@@ -26,4 +38,28 @@ footer {
   padding-bottom: 10px;
   border: 1px solid #000000;
   margin-bottom: 10px;
+  /*width: 80%;*/
+}
+header  {
+  padding-left: 10%;
+  text-align: left;
+  color: grey;
+}
+body {
+  background: #dfdfdf;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+article {
+  border: 1px solid #000000;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+p {
+  padding-left: 11%;
+  font-family: sans-serif;
+  font-size: 15px;
 }
