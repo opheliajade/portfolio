@@ -1,26 +1,48 @@
-.navbar {
-  background-color: #fbfdfc;
-  border: 3px solid #fbfdfc;
-}
-.head {
-    color: #ff3b3f;
+.navbar-default {
+  background-color: #30415d;
+  border: 3px solid #30415d;
+    border-radius: 0;
 }
 
-
-
+.navbar-default .navbar-brand, .navbar-default .navbar-toggle .icon-bar {
+    color: #8eaebd;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #8eaebd;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #30415d;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #8eaebd;
+    background-color: #AA0000;
+}
+.navbar-default .navbar-toggle {
+    border-color: #8eaebd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #8eaebd;
+}
 .main-img img {
   margin-left: 10%;
   margin-right: 10%;
-  border: 2px solid #a9a9a9;
+  border: 2px solid #30415d;
   padding: 10px;
-  background-color:#efefef;
+  background-color:#031424;
+
+}
+.head {
+    color: #8eaebd;
 }
 
 .img-border {
   border: 2px solid ;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-color: #a9a9a9;
+  border-color: #30415d;
 }
 /*
 .boorder {
@@ -34,6 +56,7 @@
 
 .img-responsive:hover {
   opacity: 0.75;
+color: #cf6766;
 }
 .col-md-9  {
   margin-left:10%;
@@ -43,6 +66,7 @@
 .col-md-4 img {
   height: 200px;
   text-align: center;
+    background-color: #cf6766;
 }
 footer {
   font-size: 16px;
@@ -51,22 +75,22 @@ footer {
   padding-bottom: 10px;
   border: 2px solid;
   margin-bottom: 10px;
-  border-color: #a9a9a9;
-  color: #a9a9a9;
+  border-color: #30415d;
+  color: #8eaebd;
 }
 header  {
   padding-left: 10%;
   text-align: left;
-  color: #a9a9a9;
+  color: #8eaebd;
 }
 body {
-  background: #efefef;
-    color:#fbfdfc;
+  background: #031424;
+    color:#8eaebd;
 }
 
 a {
   text-decoration: none;
-  color: #a9a9a9;
+  color: #8eaebd;
 }
 a:hover {
     color: #caebf2;
@@ -82,5 +106,5 @@ p {
   font-family: sans-serif;
   font-size: 15px;
   text-align:left;
-  color: #a9a9a9;
+  color: #8eaebd;
 }
